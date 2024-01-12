@@ -70,9 +70,9 @@ CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 $JAVA_HOME/bin/java -version
 if [ -n "$JAVA_HOME" ] ; then
-    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
+    if [ -x "$JAVA_HOME/bin/java" ] ; then
         # IBM's JDK on AIX uses strange locations for the executables
-        JAVACMD="$JAVA_HOME/jre/sh/java"
+        JAVACMD="$JAVA_HOME/bin/java"
     else
         JAVACMD="$JAVA_HOME/bin/java"
     fi
