@@ -1,5 +1,4 @@
 plugins {
-  //inlude the nodeJS plugin to execute nodejs and npm tasks
   id("com.github.node-gradle.node") version "2.2.0"
 }
 
